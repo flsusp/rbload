@@ -15,7 +15,7 @@ end
 
 optparse.parse!
 
-test = RBLoad::LoadTest.new(worker: RBLoad::Worker::SingleRequest.new(url: 'www.google.com.br'),
+test = RBLoad::LoadTest.new(worker: RBLoad::Worker::SingleRequest.new(url: 'http://www.google.com.br'),
                             strategy: RBLoad::Strategy::OneUserFixedTries.new,
                             reporter: RBLoad::Reporter::InMemory.new)
 test.start
