@@ -1,6 +1,6 @@
 module RBLoad
   module Worker
-    class SingleRequestWorker
+    class SingleRequest
       def initialize(url:)
         @url = url
       end

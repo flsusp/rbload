@@ -1,6 +1,6 @@
 module RBLoad
   module Strategy
-    class OneUserFixedTriesStrategy
+    class OneUserFixedTries
       def initialize(number_of_tries: 1)
         @number_of_tries = number_of_tries
       end

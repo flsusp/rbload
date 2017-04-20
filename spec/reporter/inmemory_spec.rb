@@ -1,8 +1,8 @@
 require 'rspec'
-require_relative '../../lib/reporter/inmemory_reporter'
+require_relative '../../lib/reporter/inmemory'
 
-describe RBLoad::Reporter::InMemoryReporter do
-  let(:reporter) { RBLoad::Reporter::InMemoryReporter.new }
+describe RBLoad::Reporter::InMemory do
+  let(:reporter) { RBLoad::Reporter::InMemory.new }
 
   context 'on initialization' do
     it 'total executions should be zero' do

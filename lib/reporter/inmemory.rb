@@ -1,6 +1,6 @@
 module RBLoad
   module Reporter
-    class InMemoryReporter
+    class InMemory
       attr_reader :total_executions, :successes
 
       def initialize
